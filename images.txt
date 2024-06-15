@@ -1,25 +1,19 @@
---platform=linux/arm64,linux/amd64 bitnami/mysql:5.7.43
+--platform=linux/amd64 apache/apisix:3.3.0-debian
 
---platform=linux/arm64,linux/amd64 bitnami/mysql:8.0.37
+--platform=linux/arm64 apache/apisix:3.3.0-debian
 
---platform=linux/arm64,linux/amd64 redis:5.0.14
+--platform=linux/amd64 apache/apisix-dashboard:3.0.1-alpine
 
---platform=linux/arm64,linux/amd64 kartoza/postgis:14-3.2
+--platform=linux/arm64 apache/apisix-dashboard:3.0.1-alpine
 
---platform=linux/arm64,linux/amd64 elasticsearch:7.17.16
+--platform=linux/amd64 apache/apisix-ingress-controller:1.6.0
 
---platform=linux/arm64,linux/amd64 kibana:7.17.16
+--platform=linux/arm64 apache/apisix-ingress-controller:1.6.0
 
---platform=linux/arm64,linux/amd64 apache/apisix:3.3.0-debian
+--platform=linux/amd64 apache/skywalking-oap-server:9.4.0
 
---platform=linux/arm64,linux/amd64 apache/apisix-dashboard:3.0.1-alpine
+--platform=linux/arm64 apache/skywalking-oap-server:9.4.0
 
---platform=linux/arm64,linux/amd64 apache/apisix-ingress-controller:1.6.0
+--platform=linux/amd64 apache/skywalking-ui:9.4.0
 
---platform=linux/arm64,linux/amd64 apache/skywalking-oap-server:9.4.0
-
---platform=linux/arm64,linux/amd64 apache/skywalking-ui:9.4.0
-
---platform=linux/arm64,linux/amd64 rabbitmq:3.9.24
-
---platform=linux/arm64,linux/amd64 timberio/vector:0.36.1-debian
+--platform=linux/arm64 apache/skywalking-ui:9.4.0
