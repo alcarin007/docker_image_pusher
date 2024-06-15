@@ -1,39 +1,27 @@
---platform=linux/amd64 prom/prometheus:v2.35.0
+--platform=linux/amd64 k8s.gcr.io/sig-storage/csi-provisioner:v2.2.2
 
---platform=linux/arm64 prom/prometheus:v2.35.0
+--platform=linux/arm64 k8s.gcr.io/sig-storage/csi-provisioner:v2.2.2
 
---platform=linux/amd64 prom/node-exporter:v1.3.1
+--platform=linux/amd64 k8s.gcr.io/sig-storage/csi-snapshotter:v4.1.1
 
---platform=linux/arm64 prom/node-exporter:v1.3.1
+--platform=linux/arm64 k8s.gcr.io/sig-storage/csi-snapshotter:v4.1.1
 
---platform=linux/amd64 prom/mysqld-exporter:v0.15.0
+--platform=linux/amd64 k8s.gcr.io/sig-storage/csi-attacher:v3.2.1
 
---platform=linux/arm64 prom/mysqld-exporter:v0.15.0
+--platform=linux/arm64 k8s.gcr.io/sig-storage/csi-attacher:v3.2.1
 
---platform=linux/amd64 oliver006/redis_exporter:v1.51.0
+--platform=linux/amd64 k8s.gcr.io/sig-storage/csi-resizer:v1.2.0
 
---platform=linux/arm64 oliver006/redis_exporter:v1.51.0
+--platform=linux/arm64 k8s.gcr.io/sig-storage/csi-resizer:v1.2.0
 
---platform=linux/amd64 prometheuscommunity/elasticsearch-exporter:v1.6.0
+--platform=linux/amd64 k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.2.0
 
---platform=linux/arm64 prometheuscommunity/elasticsearch-exporter:v1.6.0
+--platform=linux/arm64 k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.2.0
 
---platform=linux/amd64 prometheuscommunity/postgres-exporter:v0.12.1
+--platform=linux/amd64 registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
 
---platform=linux/arm64 prometheuscommunity/postgres-exporter:v0.12.1
+--platform=linux/arm64 registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
 
---platform=linux/amd64 grafana/grafana:8.5.13
+--platform=linux/amd64 quay.io/cephcsi/cephcsi:v3.4.0
 
---platform=linux/arm64 grafana/grafana:8.5.13
-
---platform=linux/amd64 jimmidyson/configmap-reload:v0.7.0
-
---platform=linux/arm64 jimmidyson/configmap-reload:v0.7.0
-
---platform=linux/amd64 kbudde/rabbitmq-exporter:1.0.0
-
---platform=linux/arm64 kbudde/rabbitmq-exporter:1.0.0
-
---platform=linux/amd64 registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.3.0
-
---platform=linux/arm64 registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.3.0
+--platform=linux/arm64 quay.io/cephcsi/cephcsi:v3.4.0
