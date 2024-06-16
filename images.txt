@@ -1,27 +1,95 @@
---platform=linux/amd64 registry.k8s.io/sig-storage/csi-provisioner:v2.2.2
+--platform=linux/amd64 bitnami/etcd:3.5.14
 
---platform=linux/arm64 registry.k8s.io/sig-storage/csi-provisioner:v2.2.2
+--platform=linux/arm64 bitnami/etcd:3.5.14
 
---platform=linux/amd64 registry.k8s.io/sig-storage/csi-snapshotter:v4.1.1
+--platform=linux/amd64 bitnami/mysql:5.7.43
 
---platform=linux/arm64 registry.k8s.io/sig-storage/csi-snapshotter:v4.1.1
+--platform=linux/arm64 bitnami/mysql:5.7.43
 
---platform=linux/amd64 registry.k8s.io/sig-storage/csi-attacher:v3.2.1
+--platform=linux/amd64 bitnami/mysql:8.0.37
 
---platform=linux/arm64 registry.k8s.io/sig-storage/csi-attacher:v3.2.1
+--platform=linux/arm64 bitnami/mysql:8.0.37
 
---platform=linux/amd64 registry.k8s.io/sig-storage/csi-resizer:v1.2.0
+--platform=linux/amd64 bitnami/redis:6.2.14
 
---platform=linux/arm64 registry.k8s.io/sig-storage/csi-resizer:v1.2.0
+--platform=linux/arm64 bitnami/redis:6.2.14
 
---platform=linux/amd64 registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.2.0
+--platform=linux/amd64 bitnami/redis:7.0.15
 
---platform=linux/arm64 registry.k8s.io/sig-storage/csi-node-driver-registrar:v2.2.0
+--platform=linux/arm64 bitnami/redis:7.0.15
 
---platform=linux/amd64 registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
+--platform=linux/amd64 bitnami/redis:7.2.5
 
---platform=linux/arm64 registry.k8s.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2
+--platform=linux/arm64 bitnami/redis:7.2.5
 
---platform=linux/amd64 quay.io/cephcsi/cephcsi:v3.4.0
+--platform=linux/amd64 bitnami/postgresql:12.19.0
 
---platform=linux/arm64 quay.io/cephcsi/cephcsi:v3.4.0
+--platform=linux/arm64 bitnami/postgresql:12.19.0
+
+--platform=linux/amd64 bitnami/postgresql:13.15.0
+
+--platform=linux/arm64 bitnami/postgresql:13.15.0
+
+--platform=linux/amd64 bitnami/postgresql:14.12.0
+
+--platform=linux/arm64 bitnami/postgresql:14.12.0
+
+--platform=linux/amd64 bitnami/postgresql:15.7.0
+
+--platform=linux/arm64 bitnami/postgresql:15.7.0
+
+--platform=linux/amd64 bitnami/postgresql:16.3.0
+
+--platform=linux/arm64 bitnami/postgresql:16.3.0
+
+--platform=linux/amd64 bitnami/rabbitmq:3.9.29
+
+--platform=linux/arm64 bitnami/rabbitmq:3.9.29
+
+--platform=linux/amd64 bitnami/rabbitmq:3.10.25
+
+--platform=linux/arm64 bitnami/rabbitmq:3.10.25
+
+--platform=linux/amd64 bitnami/rabbitmq:3.11.28
+
+--platform=linux/arm64 bitnami/rabbitmq:3.11.28
+
+--platform=linux/amd64 bitnami/rabbitmq:3.12.14
+
+--platform=linux/arm64 bitnami/rabbitmq:3.12.14
+
+--platform=linux/amd64 bitnami/rabbitmq:3.13.3
+
+--platform=linux/arm64 bitnami/rabbitmq:3.13.3
+
+--platform=linux/amd64 bitnami/zookeeper:3.7.2
+
+--platform=linux/arm64 bitnami/zookeeper:3.7.2
+
+--platform=linux/amd64 bitnami/zookeeper:3.8.4
+
+--platform=linux/arm64 bitnami/zookeeper:3.8.4
+
+--platform=linux/amd64 bitnami/zookeeper:3.9.2
+
+--platform=linux/arm64 bitnami/zookeeper:3.9.2
+
+--platform=linux/amd64 bitnami/kafka:3.2.3
+
+--platform=linux/arm64 bitnami/kafka:3.2.3
+
+--platform=linux/amd64 bitnami/kafka:3.3.2
+
+--platform=linux/arm64 bitnami/kafka:3.3.2
+
+--platform=linux/amd64 bitnami/kafka:3.4.1
+
+--platform=linux/arm64 bitnami/kafka:3.4.1
+
+--platform=linux/amd64 bitnami/kafka:3.5.2
+
+--platform=linux/arm64 bitnami/kafka:3.5.2
+
+--platform=linux/amd64 bitnami/kafka:3.6.2
+
+--platform=linux/arm64 bitnami/kafka:3.6.2
