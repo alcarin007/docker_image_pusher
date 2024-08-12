@@ -1,43 +1,15 @@
---platform=linux/amd64 rabbitmq:3.9.29-management
+--platform=linux/amd64 logstash:7.17.16
 
---platform=linux/arm64 rabbitmq:3.9.29-management
+--platform=linux/arm64 logstash:7.17.16
 
---platform=linux/amd64 rabbitmq:3.10.25-management
+--platform=linux/amd64 logstash:8.12.2
 
---platform=linux/arm64 rabbitmq:3.10.25-management
+--platform=linux/arm64 logstash:8.12.2
 
---platform=linux/amd64 rabbitmq:3.11.28-management
+--platform=linux/amd64 filebeat:7.17.16
 
---platform=linux/arm64 rabbitmq:3.11.28-management
+--platform=linux/arm64 filebeat:7.17.16
 
---platform=linux/amd64 rabbitmq:3.12.14-management
+--platform=linux/amd64 filebeat:8.12.2
 
---platform=linux/arm64 rabbitmq:3.12.14-management
-
---platform=linux/amd64 rabbitmq:3.13.3-management
-
---platform=linux/arm64 rabbitmq:3.13.3-management
-
---platform=linux/amd64 elasticsearch:7.17.16
-
---platform=linux/arm64 elasticsearch:7.17.16
-
---platform=linux/amd64 elasticsearch:8.12.2
-
---platform=linux/arm64 elasticsearch:8.12.2
-
---platform=linux/amd64 kibana:7.17.16
-
---platform=linux/arm64 kibana:7.17.16
-
---platform=linux/amd64 kibana:8.12.2
-
---platform=linux/arm64 kibana:8.12.2
-
---platform=linux/amd64 node:20.16.0-slim
-
---platform=linux/arm64 node:20.16.0-slim
-
---platform=linux/amd64 node:18.20.4-slim
-
---platform=linux/arm64 node:18.20.4-slim
+--platform=linux/arm64 filebeat:8.12.2
