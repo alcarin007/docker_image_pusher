@@ -1,171 +1,43 @@
---platform=linux/amd64 nginx:1.24.0
+--platform=linux/amd64 rabbitmq:3.9.29-management
 
---platform=linux/arm64 nginx:1.24.0
+--platform=linux/arm64 rabbitmq:3.9.29-management
 
---platform=linux/amd64 nginx:1.26.1
+--platform=linux/amd64 rabbitmq:3.10.25-management
 
---platform=linux/arm64 nginx:1.26.1
+--platform=linux/arm64 rabbitmq:3.10.25-management
 
---platform=linux/amd64 mysql:8.0.37
+--platform=linux/amd64 rabbitmq:3.11.28-management
 
---platform=linux/arm64 mysql:8.0.37
+--platform=linux/arm64 rabbitmq:3.11.28-management
 
---platform=linux/amd64 redis:5.0.14
+--platform=linux/amd64 rabbitmq:3.12.14-management
 
---platform=linux/arm64 redis:5.0.14
+--platform=linux/arm64 rabbitmq:3.12.14-management
 
---platform=linux/amd64 redis:6.2.14
+--platform=linux/amd64 rabbitmq:3.13.3-management
 
---platform=linux/arm64 redis:6.2.14
+--platform=linux/arm64 rabbitmq:3.13.3-management
 
---platform=linux/amd64 redis:7.0.15
+--platform=linux/amd64 elasticsearch:7.17.16
 
---platform=linux/arm64 redis:7.0.15
+--platform=linux/arm64 elasticsearch:7.17.16
 
---platform=linux/amd64 redis:7.2.5
+--platform=linux/amd64 elasticsearch:8.12.2
 
---platform=linux/arm64 redis:7.2.5
+--platform=linux/arm64 elasticsearch:8.12.2
 
---platform=linux/amd64 postgres:12.19
+--platform=linux/amd64 kibana:7.17.16
 
---platform=linux/arm64 postgres:12.19
+--platform=linux/arm64 kibana:7.17.16
 
---platform=linux/amd64 postgres:13.15
+--platform=linux/amd64 kibana:8.12.2
 
---platform=linux/arm64 postgres:13.15
+--platform=linux/arm64 kibana:8.12.2
 
---platform=linux/amd64 postgres:14.12
+--platform=linux/amd64 node:20.16.0-slim
 
---platform=linux/arm64 postgres:14.12
+--platform=linux/arm64 node:20.16.0-slim
 
---platform=linux/amd64 postgres:15.7
+--platform=linux/amd64 node:18.20.4-slim
 
---platform=linux/arm64 postgres:15.7
-
---platform=linux/amd64 postgres:16.3
-
---platform=linux/arm64 postgres:16.3
-
---platform=linux/amd64 rabbitmq:3.9.29
-
---platform=linux/arm64 rabbitmq:3.9.29
-
---platform=linux/amd64 rabbitmq:3.10.25
-
---platform=linux/arm64 rabbitmq:3.10.25
-
---platform=linux/amd64 rabbitmq:3.11.28
-
---platform=linux/arm64 rabbitmq:3.11.28
-
---platform=linux/amd64 rabbitmq:3.12.14
-
---platform=linux/arm64 rabbitmq:3.12.14
-
---platform=linux/amd64 rabbitmq:3.13.3
-
---platform=linux/arm64 rabbitmq:3.13.3
-
---platform=linux/amd64 mongo:4.0.28
-
---platform=linux/arm64 mongo:4.0.28
-
---platform=linux/amd64 mongo:5.0.27
-
---platform=linux/arm64 mongo:5.0.27
-
---platform=linux/amd64 mongo:6.0.15
-
---platform=linux/arm64 mongo:6.0.15
-
---platform=linux/amd64 mongo:7.0.11
-
---platform=linux/arm64 mongo:7.0.11
-
---platform=linux/amd64 mariadb:10.3.39
-
---platform=linux/arm64 mariadb:10.3.39
-
---platform=linux/amd64 mariadb:10.4.34
-
---platform=linux/arm64 mariadb:10.4.34
-
---platform=linux/amd64 mariadb:10.5.25
-
---platform=linux/arm64 mariadb:10.5.25
-
---platform=linux/amd64 mariadb:10.6.18
-
---platform=linux/arm64 mariadb:10.6.18
-
---platform=linux/amd64 sonarqube:9.9.5-community
-
---platform=linux/arm64 sonarqube:9.9.5-community
-
---platform=linux/amd64 elasticsearch:7.17.22
-
---platform=linux/arm64 elasticsearch:7.17.22
-
---platform=linux/amd64 elasticsearch:8.14.1
-
---platform=linux/arm64 elasticsearch:8.14.1
-
---platform=linux/amd64 kibana:7.17.22
-
---platform=linux/arm64 kibana:7.17.22
-
---platform=linux/amd64 kibana:8.14.1
-
---platform=linux/arm64 kibana:8.14.1
-
---platform=linux/amd64 node:20.14.0
-
---platform=linux/arm64 node:20.14.0
-
---platform=linux/amd64 node:18.20.3
-
---platform=linux/arm64 node:18.20.3
-
---platform=linux/amd64 node:16.20.2
-
---platform=linux/arm64 node:16.20.2
-
---platform=linux/amd64 maven:3.9.7-eclipse-temurin-8
-
---platform=linux/arm64 maven:3.9.7-eclipse-temurin-8
-
---platform=linux/amd64 maven:3.9.7-eclipse-temurin-11
-
---platform=linux/arm64 maven:3.9.7-eclipse-temurin-11
-
---platform=linux/amd64 maven:3.9.7-eclipse-temurin-17
-
---platform=linux/arm64 maven:3.9.7-eclipse-temurin-17
-
---platform=linux/amd64 maven:3.9.7-eclipse-temurin-21
-
---platform=linux/arm64 maven:3.9.7-eclipse-temurin-21
-
---platform=linux/amd64 consul:1.13.9
-
---platform=linux/arm64 consul:1.13.9
-
---platform=linux/amd64 consul:1.14.8
-
---platform=linux/arm64 consul:1.14.8
-
---platform=linux/amd64 consul:1.15.4
-
---platform=linux/arm64 consul:1.15.4
-
---platform=linux/amd64 minio/minio:RELEASE.2023-07-21T21-12-44Z
-
---platform=linux/arm64 minio/minio:RELEASE.2023-07-21T21-12-44Z
-
---platform=linux/amd64 influxdb:1.8.10
-
---platform=linux/arm64 influxdb:1.8.10
-
---platform=linux/amd64 influxdb:2.7.6
-
---platform=linux/arm64 influxdb:2.7.6
+--platform=linux/arm64 node:18.20.4-slim
