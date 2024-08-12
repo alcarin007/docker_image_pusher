@@ -1,15 +1,7 @@
---platform=linux/amd64 logstash:7.17.16
+--platform=linux/amd64 elastic/filebeat:7.17.16
 
---platform=linux/arm64 logstash:7.17.16
+--platform=linux/arm64 elastic/filebeat:7.17.16
 
---platform=linux/amd64 logstash:8.12.2
+--platform=linux/amd64 elastic/filebeat:8.12.2
 
---platform=linux/arm64 logstash:8.12.2
-
---platform=linux/amd64 filebeat:7.17.16
-
---platform=linux/arm64 filebeat:7.17.16
-
---platform=linux/amd64 filebeat:8.12.2
-
---platform=linux/arm64 filebeat:8.12.2
+--platform=linux/arm64 elastic/filebeat:8.12.2
