@@ -1,7 +1,3 @@
---platform=linux/amd64 elastic/filebeat:7.17.16
+--platform=linux/amd64 mariadb:10.3.38
 
---platform=linux/arm64 elastic/filebeat:7.17.16
-
---platform=linux/amd64 elastic/filebeat:8.12.2
-
---platform=linux/arm64 elastic/filebeat:8.12.2
+--platform=linux/arm64 mariadb:10.3.38
