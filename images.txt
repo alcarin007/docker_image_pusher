@@ -1,3 +1,1 @@
---platform=linux/amd64 kartoza/postgis:16-3.4
-
---platform=linux/arm64 kartoza/postgis:16-3.4
+--platform=linux/amd64 tencentdbforkv/tendisplus:v2.7.0
