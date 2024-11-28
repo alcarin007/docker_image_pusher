@@ -1,3 +1,1 @@
---platform=linux/amd64 elasticsearch:6.8.23
-
---platform=linux/amd64 kibana:6.8.23
+--platform=linux/amd64 atlassian/jira-software:8.3.12
