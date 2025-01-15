@@ -1,2 +1,6 @@
---platform=linux/amd64 kartoza/geoserver:2.26.1
---platform=linux/arm64 kartoza/geoserver:2.26.1
+--platform=linux/amd64 flannelcni/flannel-cni-plugin:v1.1.0
+--platform=linux/arm64 flannelcni/flannel-cni-plugin:v1.1.0
+--platform=linux/amd64 flannelcni/flannel:v0.19.2
+--platform=linux/arm64 flannelcni/flannel:v0.19.2
+--platform=linux/amd64 coredns/coredns:1.6.7
+--platform=linux/arm64 coredns/coredns:1.6.7
