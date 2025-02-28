@@ -1,6 +1,2 @@
---platform=linux/amd64 flannelcni/flannel-cni-plugin:v1.1.0
---platform=linux/arm64 flannelcni/flannel-cni-plugin:v1.1.0
---platform=linux/amd64 flannelcni/flannel:v0.19.2
---platform=linux/arm64 flannelcni/flannel:v0.19.2
---platform=linux/amd64 coredns/coredns:1.6.7
---platform=linux/arm64 coredns/coredns:1.6.7
+--platform=linux/amd64 redis/redis-stack-server:6.2.6-v19
+--platform=linux/arm64 redis/redis-stack-server:6.2.6-v19
