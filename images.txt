@@ -1,4 +1,4 @@
---platform=linux/amd64 quay.io/jacksontj/promxy:v0.0.92
---platform=linux/arm64 quay.io/jacksontj/promxy:v0.0.92
---platform=linux/amd64 docker.io/victoriametrics/victoria-metrics:v1.112.0
---platform=linux/arm64 docker.io/victoriametrics/victoria-metrics:v1.112.0
+--platform=linux/amd64 docker.io/victoriametrics/vmagent:v1.112.0
+--platform=linux/arm64 docker.io/victoriametrics/vmagent:v1.112.0
+--platform=linux/amd64 docker.io/victoriametrics/vmalert:v1.112.0
+--platform=linux/arm64 docker.io/victoriametrics/vmalert:v1.112.0
