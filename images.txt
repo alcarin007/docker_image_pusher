@@ -1,2 +1,4 @@
---platform=linux/amd64 redis/redis-stack-server:6.2.6-v19
---platform=linux/arm64 redis/redis-stack-server:6.2.6-v19
+--platform=linux/amd64 quay.io/jacksontj/promxy:v0.0.92
+--platform=linux/arm64 quay.io/jacksontj/promxy:v0.0.92
+--platform=linux/amd64 docker.io/victoriametrics/victoria-metrics:v1.112.0
+--platform=linux/arm64 docker.io/victoriametrics/victoria-metrics:v1.112.0
