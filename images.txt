@@ -1,2 +1,1 @@
---platform=linux/amd64 ghcr.io/developmentseed/titiler:0.18.5
---platform=linux/arm64 ghcr.io/developmentseed/titiler:0.18.5
+--platform=linux/amd64 tencentdbforkv/tendisplus:v2.7.0
