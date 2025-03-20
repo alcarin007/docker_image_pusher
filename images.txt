@@ -1,1 +1,2 @@
---platform=linux/amd64 tencentdbforkv/tendisplus:v2.7.0
+--platform=linux/amd64 quay.io/skopeo/stable:v1.15.2
+--platform=linux/arm64 quay.io/skopeo/stable:v1.15.2
