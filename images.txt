@@ -1,2 +1,2 @@
---platform=linux/amd64 quay.io/skopeo/stable:v1.15.2
---platform=linux/arm64 quay.io/skopeo/stable:v1.15.2
+--platform=linux/amd64  grafana/grafana:11.6.0
+--platform=linux/arm64  grafana/grafana:11.6.0
