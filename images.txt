@@ -1,2 +1,2 @@
---platform=linux/amd64  grafana/grafana:11.6.0
---platform=linux/arm64  grafana/grafana:11.6.0
+--platform=linux/amd64  timberio/vector:0.46.1-debian
+--platform=linux/arm64  timberio/vector:0.46.1-debian
