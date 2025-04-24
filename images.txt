@@ -1,2 +1,2 @@
---platform=linux/amd64  timberio/vector:0.46.1-debian
---platform=linux/arm64  timberio/vector:0.46.1-debian
+--platform=linux/amd64  victoriametrics/victoria-logs:v1.20.0-victorialogs
+--platform=linux/arm64  victoriametrics/victoria-logs:v1.20.0-victorialogs
