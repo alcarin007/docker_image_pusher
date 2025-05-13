@@ -1,2 +1,10 @@
---platform=linux/amd64  victoriametrics/victoria-logs:v1.20.0-victorialogs
---platform=linux/arm64  victoriametrics/victoria-logs:v1.20.0-victorialogs
+--platform=linux/amd64  apache/dolphinscheduler-api:3.2.2
+--platform=linux/arm64  apache/dolphinscheduler-api:3.2.2
+--platform=linux/amd64  apache/dolphinscheduler-tools:3.2.2
+--platform=linux/arm64  apache/dolphinscheduler-tools:3.2.2
+--platform=linux/amd64  apache/dolphinscheduler-alert-server:3.2.2
+--platform=linux/arm64  apache/dolphinscheduler-alert-server:3.2.2
+--platform=linux/amd64  apache/dolphinscheduler-master:3.2.2
+--platform=linux/arm64  apache/dolphinscheduler-master:3.2.2
+--platform=linux/amd64  apache/dolphinscheduler-worker:3.2.2
+--platform=linux/arm64  apache/dolphinscheduler-worker:3.2.2
