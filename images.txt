@@ -1,1 +1,2 @@
---platform=linux/amd64 gvenzl/oracle-xe:11-slim
+--platform=linux/amd64 kartoza/geoserver:2.27.1
+--platform=linux/arm64 kartoza/geoserver:2.27.1
