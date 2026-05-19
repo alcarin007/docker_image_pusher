@@ -1,2 +1,4 @@
---platform=linux/amd64 kartoza/geoserver:2.27.1
---platform=linux/arm64 kartoza/geoserver:2.27.1
+--platform=linux/amd64 dataelement/bisheng-frontend:v2.4.0
+--platform=linux/arm64 dataelement/bisheng-frontend:v2.4.0
+--platform=linux/amd64 dataelement/bisheng-backend:v2.4.0
+--platform=linux/arm64 dataelement/bisheng-backend:v2.4.0
