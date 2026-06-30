@@ -1,4 +1,2 @@
---platform=linux/amd64 dataelement/bisheng-frontend:v2.4.0
---platform=linux/arm64 dataelement/bisheng-frontend:v2.4.0
---platform=linux/amd64 dataelement/bisheng-backend:v2.4.0
---platform=linux/arm64 dataelement/bisheng-backend:v2.4.0
+--platform=linux/amd64 kartoza/mapproxy:6.0.1
+--platform=linux/arm64 kartoza/mapproxy:6.0.1
