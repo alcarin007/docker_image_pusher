@@ -1,2 +1,4 @@
---platform=linux/amd64 kartoza/mapproxy:6.0.1
---platform=linux/arm64 kartoza/mapproxy:6.0.1
+--platform=linux/amd64 onlyoffice/documentserver:9.3.0.1
+--platform=linux/arm64 onlyoffice/documentserver:9.3.0.1
+--platform=linux/amd64  kartoza/geoserver:2.28.5
+--platform=linux/arm64  kartoza/geoserver:2.28.5
