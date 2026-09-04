@@ -1,4 +1,2 @@
---platform=linux/amd64 onlyoffice/documentserver:9.3.0.1
---platform=linux/arm64 onlyoffice/documentserver:9.3.0.1
---platform=linux/amd64  kartoza/geoserver:2.28.5
---platform=linux/arm64  kartoza/geoserver:2.28.5
+--platform=linux/amd64 cosincox/easyvoice:0.0.17
+--platform=linux/arm64 cosincox/easyvoice:0.0.17
