@@ -1,2 +1,2 @@
---platform=linux/amd64 kartoza/geoserver:2.28.6
---platform=linux/arm64 kartoza/geoserver:2.28.6
+--platform=linux/amd64 kartoza/geoserver:3.0.2
+--platform=linux/arm64 kartoza/geoserver:3.0.2
